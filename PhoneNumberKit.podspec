@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
     core.osx.deployment_target = '10.10'
     core.tvos.deployment_target = '9.0'
     core.watchos.deployment_target = '2.0'
-    core.source_files = "PhoneNumberKit/*.{swift}"
+    core.source_files = "PhoneNumberKit/**/*.{swift}"
     core.resources = "PhoneNumberKit/Resources/PhoneNumberMetadata.json"
   end
 
